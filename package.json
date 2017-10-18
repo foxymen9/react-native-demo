@@ -1,0 +1,30 @@
+{
+  "name": "TestProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "immutable": "^3.8.2",
+    "react": "16.0.0-alpha.12",
+    "react-native": "^0.48.0",
+    "react-native-app-intro": "^1.1.5",
+    "react-native-credit-card-input": "https://github.com/sbycrosz/react-native-credit-card-input.git",
+    "react-native-keyboard-aware-scroll-view": "^0.3.0",
+    "react-native-md-textinput": "^2.0.4",
+    "react-native-pin-input": "^1.2.5",
+    "react-native-router-flux": "^4.0.0-beta.22",
+    "react-native-vector-icons": "^4.4.2"
+  },
+  "devDependencies": {
+    "babel-jest": "21.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "21.2.1",
+    "react-test-renderer": "16.0.0-beta.5"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
